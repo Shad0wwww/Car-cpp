@@ -127,6 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="sqlite\shell.c" />
+    <ClCompile Include="sqlite\sqlite3.c" />
     <ClCompile Include="src\class\Car.cpp" />
     <ClCompile Include="src\class\Engine.cpp" />
     <ClCompile Include="src\class\Nummerplade.cpp" />
@@ -134,6 +136,8 @@
     <ClCompile Include="src\Main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="sqlite\sqlite3.h" />
+    <ClInclude Include="sqlite\sqlite3ext.h" />
     <ClInclude Include="src\header\Car.h" />
     <ClInclude Include="src\header\Engine.h" />
     <ClInclude Include="src\header\Nummerplade.h" />
